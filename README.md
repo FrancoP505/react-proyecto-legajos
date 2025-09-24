@@ -1,54 +1,53 @@
-# My React App
+# Mi Aplicación React
 
-This is a simple React application that serves as a starting point for building a web application using React.
+Esta es una aplicación React sencilla que sirve como punto de partida para construir una aplicación web usando React.
 
-## Project Structure
+## Estructura del Proyecto
 
 ```
 my-react-app
 ├── public
-│   └── index.html          # Main HTML file
+│   └── index.html          # Archivo HTML principal
 ├── src
 │   ├── components
-│   │   └── ExampleComponent.jsx  # Example component
+│   │   └── ExampleComponent.jsx  # Componente de ejemplo
 │   ├── styles
-│   │   └── App.css        # CSS styles for the application
-│   ├── App.jsx            # Main application component
-│   └── index.jsx          # Entry point for the React application
-├── package.json           # npm configuration file
-└── README.md              # Project documentation
+│   │   └── App.css        # Estilos CSS para la aplicación
+│   └── App.jsx            # Componente principal de la aplicación
+├── package.json           # Archivo de configuración de npm
+└── README.md              # Documentación del proyecto
 ```
 
-## Getting Started
+## Primeros Pasos
 
-To get started with this project, follow these steps:
+Para comenzar con este proyecto, sigue estos pasos:
 
-1. **Clone the repository:**
+1. **Clona el repositorio:**
    ```bash
    git clone <repository-url>
    cd my-react-app
    ```
 
-2. **Install dependencies:**
+2. **Instala las dependencias:**
    ```bash
    npm install
    ```
 
-3. **Run the application:**
+3. **Ejecuta la aplicación:**
    ```bash
    npm start
    ```
 
-   This will start the development server and open the application in your default web browser.
+   Esto iniciará el servidor de desarrollo y abrirá la aplicación en tu navegador predeterminado.
 
-## Components
+## Componentes
 
-- **ExampleComponent**: A functional component that can accept props and render UI elements based on those props.
+- **ExampleComponent**: Componente funcional que puede aceptar props y renderizar elementos de UI en base a esos props.
 
-## Styles
+## Estilos
 
-The application uses a CSS file located in `src/styles/App.css` to style the components.
+La aplicación utiliza un archivo CSS ubicado en `src/styles/App.css` para estilizar los componentes.
 
-## License
+## Licencia
 
-This project is licensed under the MIT License.
+Este proyecto está licenciado bajo la Licencia MIT.

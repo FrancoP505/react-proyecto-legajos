@@ -5,7 +5,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Aquí puedes agregar lógica de autenticación
-    window.location.href = "main.html";
+    window.location.href = 'HomePage.jsx';
   };
 
   return (
