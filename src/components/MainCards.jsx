@@ -37,11 +37,19 @@ function Card({ onClick, image, title, description }) {
     );
 }
 
+// Componente MainCards que utiliza el componente Card, mostrando una tarjeta centrada, responsive y con margen, que al hacer click redirige a otras páginas
+
 function MainCards() {
+    const navigate = useNavigate();
+
+    const handleCardClick = () => {
+        navigate('/upload'); // ✅ navegación SPA
+    };
+
     return (
         <div className="d-flex justify-content-around flex-wrap mt-4">
             <Card
-                onClick={() => window.location.href = 'upload.html'}
+                onClick={handleCardClick}
                 image="https://ejemplo.com/imagen.jpg"
                 title="Subir Archivos"
                 description="Sube y gestiona tus archivos de manera sencilla y rápida."
@@ -49,5 +57,6 @@ function MainCards() {
         </div>
     );
 }
+
 
 export default MainCards;
